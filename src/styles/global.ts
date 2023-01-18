@@ -6,6 +6,11 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   }
+  html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--gray-600);
+  }
   button, textarea, input {
     outline: 0;
     border: 0;
